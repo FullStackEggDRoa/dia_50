@@ -25,13 +25,8 @@ public class Ejercicio_Extra_6 {
         
         Ahorcado j1 = aS.crearJuego();
         
-        System.out.print("Ingrese una letra: ");
+        aS.juego(j1); // Método Ejecutor
         
-        char aux = leer.next().charAt(0);
-        j1.buscar(aux);
-        j1.encontradas(aux);
-        
-        System.out.println("j1.toString()");
     }
     
 }
